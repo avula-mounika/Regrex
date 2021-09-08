@@ -5,7 +5,7 @@ public class PinCode {
 
 	public static void main(String[] args) {
 		
-		String zipCode = "A400088";
+		String zipCode = "400088B";
 		String regex = "^[0-9]{6}";
 		Pattern pattern = Pattern.compile(regex);
 		Matcher matcher = pattern.matcher(zipCode);
